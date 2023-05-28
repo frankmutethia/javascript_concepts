@@ -13,7 +13,7 @@ function info(){
     console.log(`${this.title} game was released in the year ${this.year}`);
 }
 
-info.call(game9);
+info.call(game9);//name of the object we want to bind the this keyword to
 
 //Apply- we pass additional arguments as an array.
 
@@ -45,7 +45,7 @@ function info(platform,character){//added as further parameters
 info.apply(game29, ["SEGA","Luigi"]);//the arguments are added as an array
 info();
 
-//bind method
+//bind method- permanent change that can be used over and over again.
 const gameInfo = info.bind(game29, "SEGA","Luigi");
 gameInfo();
 
@@ -56,3 +56,6 @@ const game39={
 
 gameInfo.bind(game39);
 gameInfo();
+
+
+
