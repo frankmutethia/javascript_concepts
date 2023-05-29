@@ -1,5 +1,6 @@
 // JAVASCRIPT: DESTRUCTURING ASSIGNMENT
 //Destructuring assignment-  expression used to unpack values from an array or properties from an object, into distict variables.
+//Nested objects- objects used to store properties of an object in another object.
 
 const game34 ={
     title: 'Fifa',
@@ -49,3 +50,43 @@ console.log(a,b,c);
 // console.log(title);
 // console.log(author);
 // console.log(year);
+
+
+//Nested object example
+const user= {
+    firstName : "James",
+    country : "Classified",
+    //nested object
+    schedule:{
+      todo1 :  "Do shopping.",
+      todo2 : "Play some games.",
+      todo3 : "No time do die mission.",
+    }
+}
+
+let{
+    firstName,
+    country,
+    schedule:{todo1,todo2,todo3},
+}= user;
+
+console.log(firstName,country,todo1,todo2,todo3);
+
+//array list subject to destructuring
+
+const books=[//array list
+    "Atomic Habits",
+    "The 48 principles of power",
+    "The Alchemist",
+    [
+        "Gifted Hands",
+        "The Holy Bible",
+        "Effortless",
+    ]
+];
+
+let [book1, book2, book3] = books;
+
+console.log(book1);
+console.log(book2);
+console.log(book3);
