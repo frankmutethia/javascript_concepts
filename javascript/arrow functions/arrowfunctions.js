@@ -21,7 +21,7 @@ person("James");
 
 
 //function body is a single-line expression
-//functions use an implicit return
+//arrow functions use an implicit return
 const game= ()=>{
     return "Sonic";
 }
@@ -36,6 +36,7 @@ console.log(game1());
 
 //function body syntax
 //we should not use arrow functions as direct methods,if we want to access properties within an object using this.
+//this is mainly used where we have functions inside objects.
 const game7= (title)=> {
     let favGame= title;
     return favGame;
@@ -45,7 +46,7 @@ const game7= (title)=> {
 console.log(game7("The Spiderman"));
 
 //we should not use the arrow functions as direct methods
-let game10 ={
+let game12 ={
     title: "Spiderman",
     year: 2018,
     platform: "Marvel",
@@ -61,5 +62,22 @@ arrowFunction:() => {
 },
 };
 
-game10.regularFunction();
-game10.arrowFunction();
+game12.regularFunction();
+game12.arrowFunction();
+
+//adding arrow syntax in an arrow function
+let game10 ={
+    title: "Spiderman",
+    related:["Spiderman 1", "Spiderman 2", "Spiderman 3"],
+    year: 2018,
+    platform: "Marvel",
+    console: "Playstation 4",
+
+showRelated : function(){
+    this.related.forEach((relatedGame10) =>{
+    console.log(`The related game of ${this.title} -${relatedGame10}`);
+    })
+}
+};
+
+game10.showRelated();
