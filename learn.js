@@ -1,24 +1,12 @@
-print ("Hello World");
 
 
 
 
 
-function isEven(value){
-    if(value%2 ==0){
-        console.log("Even Number");
-    }
-    else{
-        console.log("Odd Number");
-    }
-}
 
-isEven(5);
 
-function power(num1,num2){
-    returnMath.pow(num1, num2);
-}
-console.log(power(5,2));
+
+
 
 function plus(a,b){
     return a+b;
