@@ -20,4 +20,4 @@ console.log("Can i order a cup of coffee?");
 console.warn("System failure");
 console.error("Syntax error detected");
 
-//Console is preferred compared to alert because is gives proper code output details including notes errors.
+//Console is preferred to alert because is gives proper code output details including code errors.
