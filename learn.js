@@ -1,28 +1,6 @@
 
 
 
-
-
-
-
-
-
-
-function plus(a,b){
-    return a+b;
-}
-alert(plus(10,10));
-
-prompt("What is your name?", "Name:");
-
-
-console.log("JS is cool");
-
-prompt("Which country are you from?", "Country Name:");
-alert("JS is pretty cool");
-console.log(confirm("Continue learning JS"));
-
-
 // JAVASCRIPT VARIABLES
 let channelName;// declaring a variable
 channelName = "Let's eat it.";// initializing a variable
