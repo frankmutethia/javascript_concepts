@@ -8,19 +8,6 @@
 
 
 
-// JAVASCRIPT NUMBERS
-let newNum =77.8;
-console.log(typeof newNum);
-
-let mill= 1e6;
-console.log(mill);
-
-let smallNum = 1e-6;
-console.log(smallnum);
-
-let newExpenditure = 1e5;
-console.log(typeof newExpenditure);
-
 //JAVASCRIPT NUMBER METHODS
 //Declaration and initialization of Pie to the nearest 5, in precision.
 // const PI= 3.141592653589793238;

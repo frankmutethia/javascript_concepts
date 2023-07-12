@@ -1,5 +1,5 @@
-// JAVASCRIPT: ARITHEMATIC OPERATORS
-//Operators- are used to assign values, to compare values, to perform arithematic on values and determine logic between values.
+// JAVASCRIPT: ARITHMETICTIC OPERATORS
+//Operators- are used to assign values, to compare values, to perform arithmetic on values and determine logic between values.
 // Operator- this is a symbol used to perform operations on an operand.e.g. +
 
 console.log(2+5);
