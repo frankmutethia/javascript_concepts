@@ -1,33 +1,9 @@
 
 
 
-// JAVASCRIPT VARIABLES
-let channelName;// declaring a variable
-channelName = "Let's eat it.";// initializing a variable
-console.log(channelName);// we define the variable
 
 
-let carName ="Mercedez Benz", driverName="George Russel"; driverAge= "24";
-console.log(carName, driverName);
 
-
-let favFood = "Pizza";
-console.log(favFood);
-
-const myBirthday= "29th November 1998";
-console.log(myBirthday);
-
-
-//JAVASCRIPT DATA TYPES
-let myList=["Paprika", "Curry Powder", "Red Pepper"]
-console.log(myList[2]);
-
-// In JS:
-// = used to assign value
-// == used to show equals to
-
-let powerCode =7.89;
-console.log(typeof powerCode);
 
 
 //JAVASCRIPT ARITHEMATIC OPERATORS
