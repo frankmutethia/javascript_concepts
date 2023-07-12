@@ -1,7 +1,7 @@
 //JAVASCRIPT DATA TYPES
 //In JavaScript values are always of a certain type and these types are referred to as data types.
 //The data types are categorized as primitives and non-primitives.
-//Primitive data types- can hold only one data value.They include: numbers, string, boolean,bigint, symbol, undefined and null.
+//Primitive data types- can hold only one data value.They include: numbers, strings, boolean, bigint, symbol, undefined and null.
 //Non-primitive- can hold multiple data values.They include object(arrays, functions and objects). Stores complex and numerous values.
 
 //Primitive Data Types

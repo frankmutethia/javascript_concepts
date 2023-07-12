@@ -6,57 +6,6 @@
 
 
 
-//JAVASCRIPT ARITHEMATIC OPERATORS
-// Operator- this is a symbol used to perform operations on an operand.e.g. +
-console.log(2+5);
-//You can only increment or decrement value of an existing variable
-
-let currentNum1= 10;
-let currentNum2=20;
-
-console.log(currentNum1 +currentNum2);
-console.log(currentNum1 % currentNum2);
-
-let total=10
-total++
-console.log(total);
-
-
-let score = 99;
-
-console.log(score);
-console.log(score++);
-
-
-//JAVASCRIPT ASSIGNMENT OPERATORS
-
-let grade = 700;
-grade = grade = grade + 77;
-console.log(grade);
-
-//+= operator
-let price = 50000;
-price += 500;
-console.log(price);
-
-//-= operator
-let tagPrice = 50000;
-tagPrice -= 500;
-console.log(tagPrice);
-
-//*= operator
-let peaches = 500;
-peaches *= 5;
-console.log(peaches);
-
-//  / operator
-let pie = 70;
-pie /= 4;
-console.log(pie);
-
-let cake = 77;
-cake %= 3;
-console.log(cake);
 
 
 // JAVASCRIPT NUMBERS
