@@ -1,5 +1,11 @@
 
-//JAVASCRIPT NUMBER METHODS
+//JAVASCRIPT NUMBER METHODS:
+// toString() - returns numbers as a string.
+//toExponential() - returns a number written in exponential notation.
+//toFixed()- returns a number written with a number of decimals.
+//toPrecision() - retruns a number written with a specified length.
+//valueOf() - returns a number as a number.
+
 //Declaration and initialization of Pie to the nearest 5, in precision.
 // const PI= 3.141592653589793238;
 // let num= PI.toFixed(3);
