@@ -1,50 +1,5 @@
 
 
-
-//JAVASCRIPT STRINGS
-//We normally use double quotation, single and backtick.
-//Below is the usage of backslash.e.g.
-let tip = "We are the future \\";
-
-
-//JAVASCRIPT CONCATENATE
-let day = "Good Morming Sir ";
-let breakfast= "Would you like smokies to go with your coffee,sir?"
-console.log(day +breakfast);
-
-let string = "10";
-let num2 = 5;
-let result= string + num2;
-console.log(result);
-
-let hobbie = "I love watching F1 on ";
-let day1 = "Sundays";
-let result1= hobbie.concat(day1);
-console.log(result1);
-
-
-//JAVASCRIPT TEMPLATE LITERALS
-//Better way to write strings. 
-//Provide better ways to interpolate variables and expressions into strings.
-// "/n" is added to break long sentences or paragraphs.
-
-let title = "Sonic the Hedgehog";
-let platform = 'SEGA';
-let year = 1991;
-
-// let info = title + "was released by " + platform + "in the year" + year;
-// let info7 ='${title} was released by ${platform} in the year ${year} "."';
-let info5 = "$ title";
-
-console.log(info5);
-
-let num11 = 19000;
-let num12 = 27000;
-let sum = 'The total sum is ${num11+num12}';
-
-console.log(sum);
-
-
 //JAVASCRIPT STRING METHODS
 let newName ='Frank';
 console.log(newName.length);
