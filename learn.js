@@ -1,18 +1,5 @@
 
 
-//JAVASCRIPT STRING METHODS
-let newName ='Frank';
-console.log(newName.length);
-//length- shows the lenght of the string
-//trim- reduces the extra-space within the string
-//to.UpperCase - marks the characters to uppercase.
-//to.LowerCase- marks the characters to lowercase.
-// console.log(newName.indexOf("k")) - shows the position of the element in that particular string.
-//last.IndexOf- show the last position of that particular character.
-//slice(0,5) - reduces the string to the range of elements described.
-console.log(newName.replace("Frank", "The Dark Knight"));
-console.log(newName.charAt(3));
-
 
 //JAVASCRIPT DATE OBJECT
 //Helps in manipulation of time objects and properties.
