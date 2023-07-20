@@ -8,8 +8,11 @@
 </head>
 <body>
     <label for="Text"></label>
-    <form action="">
-        <input type="text" placeholder="Enter your name:">
+    <form oninput="x.value=parseInt(a.value)">
+        <fieldset>
+
+            <legend>Section 1</legend>
+            <input type="text" placeholder="Enter your name:">
         <br>
         <br>
         <input type="checkbox">
@@ -23,6 +26,9 @@
         <input type="button" value="Click me">
         <br>
         <br>
+
+        </fieldset>
+        
         <label>Date</label>
         <input type="date">
         <br>
@@ -74,11 +80,48 @@
          <input type="tel">
          <br>
          <br>
-        <label>Image</label>
+         <!-- <audio controls="assets/Kanye West - On God (Lyrics).mp3"></audio>
+         <br>
+         <br> -->
+         <textarea maxlength="150" autofocus></textarea>
+         <br>
+         <br>
+         <select>
+         <optgroup label="colors">
+         <option value="red">Red</option>
+         <option value="blue">Blue</option>
+         <option value="blue">Green</option>
+         <option value="blue">Yellow</option>
+        </optgroup>
+        <optgroup label="food">
+            <option value="pizza">Pizza</option>
+            <option value="pasta">Pasta</option>
+            <option value="chips">Chips</option>
+            <option value="rice">Rice</option>
+           </optgroup>
+         </select>
+         <br>
+         <br>
+         <label>Image</label>
         <input type="image" src="submit.png" width="100px">
+        <br>
+        <br>
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="IE">
+            <option value="Chrome">
+            <option value="Safari">
+        </datalist>
+        <br>
+        <br>
+        <input type="range" min="0" max="100" id="a">
+        <output name="x"></output>
+        <br>
+        <br>
         <hr>
         <input type="submit" value="Sign Up">
     </form>
+
 </body>
 </html>
 
