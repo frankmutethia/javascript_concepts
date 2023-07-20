@@ -1,19 +1,6 @@
 
 
 
-//JAVASCRIPT DATE OBJECT
-//Helps in manipulation of time objects and properties.
-let currentDate= new Date;
-console.log(currentDate);
-console.log(currentDate.getFullYear());
-console.log(currentDate.getHours());
-//---Review this
-
-//Unix time
-let currentDate1 = newDate();
-let milliseconds = newDate(0);
-console.log(milliseconds);
-
 
 //JAVASCRIPT MATH OBJECT
 const PI = Math.PI;
