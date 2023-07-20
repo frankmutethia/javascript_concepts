@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pilot</title>
+</head>
+<body>
+    <label for="Text"></label>
+    <form action="">
+        <input type="text" placeholder="Enter your name:">
+        <br>
+        <br>
+        <input type="checkbox">
+        <br>
+        <br>
+        <label>color</label>
+        <input type="color">
+        <br>
+        <br>
+        <label>Button</label>
+        <input type="button" value="Click me">
+        <br>
+        <br>
+        <label>Date</label>
+        <input type="date">
+        <br>
+        <br>
+        <label>Month</label>
+        <input type="month">
+        <br>
+        <br>
+        <label>Email</label>
+        <input type="email">
+        <br>
+        <br>
+        <label>File</label>
+        <!-- you can choose a variety of files from pdf/png-->
+        <input type="file" accept="image/png">
+        <br>
+        <br>
+        <label>Number</label>
+        <!-- you can play with the input range -->
+        <input type="number" min="0" max="777">
+        <br>
+        <br>
+        <label>Password</label>
+        <!-- when handling passwords we do not want to use the get method -->
+        <input type="password" name="pwd">
+         <br>
+         <br>
+         <label>Radio</label>
+         <input type="radio" name="ToyStory" style="display:inline" value="Woody">
+        <span>Woody</span>
+        <input type="radio" name="ToyStory" style="display:inline" value="Buzz">
+        <span>Buzz</span>      
+         <br>
+         <br>
+         <label>Range</label>
+         <!-- name is specifically used for backend types and identifying these input types -->
+         <input type="range" min="0" max="10" name="range">
+         <br>
+         <br>
+         <label>Reset</label>
+         <input type="reset">
+         <br>
+         <br>
+         <label>Search</label>
+         <input type="search">
+         <br>
+         <br>
+         <label>Telephone</label>
+         <input type="tel">
+         <br>
+         <br>
+        <label>Image</label>
+        <input type="image" src="submit.png" width="100px">
+        <hr>
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+</html>
+
+<!-- HTML5 has an automatic field validation. -->
