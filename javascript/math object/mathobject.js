@@ -19,5 +19,6 @@ let num101= Math.random().toFixed(1)*10;
 let num102= Math.random().toFixed(1)*10;
 
 console.log(num100,num101,num102);
+
 let max= Math.max(num100,num101,num102);
 console.log(max);
