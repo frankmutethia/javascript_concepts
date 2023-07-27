@@ -3,7 +3,7 @@
 //Relational- compare values in relation to one another.
  //Abstract- check to see if the values are the same.
 // Strict- check to see of the values are the same and same type.
-//NB:  '=' assignment operator and '==' eaual to.
+//NB:  '=' assignment operator and '==' equal to.
 
 let x = "7";
 console.log(x>10);

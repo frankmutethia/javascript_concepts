@@ -1,21 +1,4 @@
 
-//JAVASCRIPT LOGICAL OPERATORS
-//False - an empty string.
-//Undefined- Nan
-//The null value is given to '0'.
-// (?)- this is the Nullish Coalescing
-//When we negate true we get false. Then, false we get true.
-let h= 1;
-h =!h;
-console.log(typeof h,h);
-
-let f = 0;
-f = !f;
-console.log(typeof f,f);
-
-//true and false = false
-//true or false = true
-
 
 //JAVASCRIPT NULL COALESCING OPERATOR
 //This is a logical operator that returns it's right hand side operand when the left hand side is null, and vice versa.
