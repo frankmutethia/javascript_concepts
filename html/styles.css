@@ -1,0 +1,43 @@
+#paragraph ::first-letter{
+    /* first-line is also implemented in the same way */
+    font-size: 200px;
+    color: greenyellow;
+}
+
+::selection{
+    color: red;
+}
+
+/* .plus::after{
+content: "+";
+} */
+
+/* p{
+    color: blueviolet;
+} */
+
+ul li a {
+    color: greenyellow;
+}
+
+
+body{
+    padding-bottom: 50vh;
+}
+
+input, textarea, select{
+    display: block;
+    margin-bottom: 30px;
+}
+
+textarea{
+    width: 50%;
+    height: 200px;
+    resize: none;
+}
+
+output{
+    color: orange;
+    font-size: 1.5em;
+}
+
