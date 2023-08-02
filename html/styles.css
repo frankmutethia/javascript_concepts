@@ -16,6 +16,30 @@ content: "+";
     color: blueviolet;
 } */
 
+#container{
+    color: red;
+}
+
+/* sets value to inherit from the container */
+.inherit{
+    color:inherit;
+}
+
+/* sets the value to the original state of the browser */
+.initial{
+    color: initial;
+}
+
+/* when an element naturally inherits a property and otherwise acts like initial */
+.unset{
+    color: blue;
+}
+
+/* when a style is defined and if not so returns to the natural state */
+.revert{
+    color: aquamarine;
+}
+
 ul li a {
     color: greenyellow;
 }
