@@ -17,14 +17,14 @@ for(let i=0; i<=10; i++) {//the initializer is initialized once b4 the code bloc
 const characters = ['Sonic', 'Mario','Luigi', 'Ben'];
 
 let para = document.querySelector('p');
-let info90 = 'The characters are';
+let info90 = `The characters are`;
 
 for( let i =0; i < characters.length; i++){
 if (i === characters.length -1 ){
-    info90 += 'and ${characters[i]}.' ;
+    info90 += `and ${characters[i]}.`;
 }
 else{
-    info90 += '${characters[i]},' ; 
+    info90 += `${characters[i]},` ; 
 }
 }
 
