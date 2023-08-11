@@ -5,6 +5,8 @@
 //For loops are used when you know a head of time. Knowing the amount of loops and iterations ahead.
 //Do while loops are used when we do not know a head of time.
 
+
+//while loop
 let i = 0;
 while([i<=10]){
       console.log(i);
@@ -24,7 +26,7 @@ while(colour100 < colours100.length){
 let m = 0;
 
 do{
-    console.log('This number is ${m}');
+    console.log(`This number is ${m}`);
     m++;
 }while(m <=10);
 
@@ -32,7 +34,7 @@ do{
 let y = 0;
 
 while( y<=100){
-  console.log('This car is' +y+'MPH' +'top speed.');
+  console.log('This car is ' +y+' MPH' +'top speed.');
   y+=10;
 }
 
