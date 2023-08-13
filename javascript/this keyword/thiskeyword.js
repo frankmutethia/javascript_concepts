@@ -1,6 +1,6 @@
 
 // JAVASCRIPT: 'this' keyword.
-// This keyword - keyword mainly associated with Option.
+// This keyword - keyword mainly associated with option.
 // 4 Ways in which this can be defined:
 //1. Global object
 //2. Method within an object.
