@@ -1,6 +1,6 @@
 
 //JAVASCRIPT: FUNCTION PARAMETERS AND ARGUMENTS
-//Parameters - a special of variable used to pass information btwn functions or procedures.
+//Parameters - a special kind of variable used to pass information btwn functions or procedures.
 //Argument - value passed btwn functions and subroutines.
 //Parameters make our functions dynamic.
 //NB: JS functions do not check the number of arguments received.
