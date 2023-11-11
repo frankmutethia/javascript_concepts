@@ -43,3 +43,9 @@ function favGame10(game){
 }
 favGame10("Contra");
 
+
+//Adding value to a parameter after being given a default value
+function favFood(response ="Please enter your fav food!") {
+    console.log(`Your favourite food is ${response}`);
+}
+favFood("pizza");
